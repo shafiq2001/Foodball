@@ -1,0 +1,140 @@
+/*----------------------- 
+Google fonts added here  
+------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/*----------------------
+ common Css starts here 
+-----------------------*/
+
+body {
+  font-family: poppins;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*---------------------------------------- 
+Header section css code start here 
+-----------------------------------------*/
+header {
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.header-content {
+  /* margin-left: 156px; */
+  width: 485px;
+}
+
+.header-content h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.header-content a {
+  color: #ffffff;
+  background: #e02c6d;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header-img img {
+  width: 556.01px;
+  height: 438px;
+  padding-bottom: 86px;
+  padding-top: 153px;
+}
+/*---------------------------------------- 
+Header section css code end here 
+-----------------------------------------*/
+
+/*---------------------------------------- 
+Players section css code start here 
+-----------------------------------------*/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+
+.player {
+  width: 330px;
+  height: 474px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player img {
+  padding: 15px 15px 16px 15px;
+  width: 300px;
+  height: 256px;
+}
+
+.player_name {
+  font-weight: 700;
+  color: #18191f;
+  margin: 0px;
+  padding: 0px 15px;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.player_detail {
+  font-size: 16px;
+  padding: 0px 15px;
+  margin: 10px 0px;
+  line-height: 26px;
+  color: #6c6c6c;
+}
+
+/*---------------------------------------- 
+Players section css code end here 
+-----------------------------------------*/
+
+/*---------------------------------------- 
+Footer section css code start here 
+-----------------------------------------*/
+footer {
+  padding-top: 100px;
+}
+.f_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_img img {
+  height: 170px;
+  width: 483px;
+}
+
+.icon i {
+  margin-left: 14px;
+  font-size: 18px;
+  padding: 7px;
+  background-color: #e7e7e8;
+  border-radius: 50%;
+  color: gray;
+}
+.copyright p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
