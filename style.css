@@ -67,6 +67,7 @@ Players section css code start here
 .container {
   display: flex;
   justify-content: center;
+  padding-bottom: 70px;
 }
 
 .players {
@@ -107,8 +108,13 @@ Players section css code start here
 }
 
 /*---------------------------------------- 
-Players section css code end here 
+Gallery section css code start here 
 -----------------------------------------*/
+
+.gallery-img img {
+  width: 250px;
+  height: auto;
+}
 
 /*---------------------------------------- 
 Footer section css code start here 
