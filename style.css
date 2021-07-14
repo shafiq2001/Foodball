@@ -68,6 +68,7 @@ Players section css code start here
   display: flex;
   justify-content: center;
   padding-bottom: 70px;
+  align-items: center;
 }
 
 .players {
@@ -110,10 +111,41 @@ Players section css code start here
 /*---------------------------------------- 
 Gallery section css code start here 
 -----------------------------------------*/
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+  margin: 0;
+}
+
+.gallery-img {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+}
 
 .gallery-img img {
-  width: 250px;
+  width: 280px;
   height: auto;
+}
+
+/*---------------------------------------- 
+highlights section css code start here 
+-----------------------------------------*/
+.highlights {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*---------------------------------------- 
@@ -174,7 +206,8 @@ footer {
   }
 
   /* players  */
-  .players {
+  .players,
+  .gallery-img {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 24px;
   }
