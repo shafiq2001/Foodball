@@ -185,8 +185,12 @@ footer {
   color: #000000;
 }
 
-/* media query here  */
+/*..................
+media query here  
+..................*/
+
 @media only screen and (max-width: 668px) {
+  /* Header section code here  */
   header {
     flex-direction: column;
     justify-content: center;
@@ -209,9 +213,15 @@ footer {
     height: 259.17px;
     padding-top: 50px;
     padding-bottom: 61px;
+    transition: transform 1s ease-in-out;
   }
 
-  /* players  */
+  .header-img img:hover {
+    transform: rotateY(180deg) scale(1.2);
+    transition: transform 1s ease-in-out;
+  }
+
+  /* players and gallery section code */
   .players,
   .gallery-img {
     grid-template-columns: repeat(1, 1fr);
@@ -232,7 +242,7 @@ footer {
     height: 200px;
   }
 
-  /* footer  */
+  /* footer  section code here*/
   footer {
     padding-top: 43px;
   }
