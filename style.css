@@ -47,6 +47,10 @@ header {
   line-height: 24px;
 }
 
+.header-content a:hover {
+  border-radius: 30px;
+}
+
 .header-content a i {
   margin-left: 8px;
 }
@@ -56,6 +60,12 @@ header {
   height: 438px;
   padding-bottom: 86px;
   padding-top: 153px;
+  transition: transform 1s ease-in-out;
+}
+
+.header-img:hover img {
+  transform: rotateY(180deg) scale(1.2);
+  transition: transform 1s ease-in-out;
 }
 /*---------------------------------------- 
 Header section css code end here 
@@ -213,12 +223,6 @@ media query here
     height: 259.17px;
     padding-top: 50px;
     padding-bottom: 61px;
-    transition: transform 1s ease-in-out;
-  }
-
-  .header-img img:hover {
-    transform: rotateY(180deg) scale(1.2);
-    transition: transform 1s ease-in-out;
   }
 
   /* players and gallery section code */
